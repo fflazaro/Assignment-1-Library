@@ -1,6 +1,9 @@
 #include <iostream> 
 using namespace std; 
 
+//Constants 
+static const int MAX = 100; 
+
 //Add a new book
 //Return true for sucess, false if book is already in library
 bool AddBook(const string &name); 
