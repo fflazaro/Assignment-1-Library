@@ -18,5 +18,8 @@ void ListAllBooks() const;
 //Return true if book in library, false otherwise 
 bool IsInLibrary(const string &name) const;
  
-//Friend function 
+//Friend function: this allows outside methods to directly access private members in the library class
 friend ostream &operator<<(ostream &out, const Library &lib); 
+
+//To know whether or not a book exists in the library 
+int FindBook (const string &name) const; 
