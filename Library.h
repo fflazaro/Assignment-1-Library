@@ -19,4 +19,4 @@ void ListAllBooks() const;
 bool IsInLibrary(const string &name) const;
  
 //Friend function 
-//ostream &operator<<(ostream &out, const library)
+friend ostream &operator<<(ostream &out, const Library &lib); 
