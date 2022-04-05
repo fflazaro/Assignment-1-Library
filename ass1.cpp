@@ -3,5 +3,6 @@
 using namespace std;
 
 int main{
-    cout << MAX; 
+    string str = "Hello World"; 
+    cout << str; 
 }

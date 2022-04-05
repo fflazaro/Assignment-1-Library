@@ -3,6 +3,8 @@ using namespace std;
 
 //Constants 
 static const int MAX = 100; 
+string LibraryName; 
+int NumBooks = 0; 
 
 //Add a new book
 //Return true for sucess, false if book is already in library
