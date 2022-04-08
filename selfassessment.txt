@@ -1,0 +1,36 @@
+CSS342 Homework Self-Assessment
+
+Name: Franchesca Lazaro
+
+*On these scores, I didn't them rate perfect because I'm not sure how high the teacher's standards so I guessed my code is going to have a mediocre score. 
+
+Do you have test functions testing all your functions? Have you tested
+edge cases such as first element in an array, last element in an
+array, empty array, etc?
+
+--> I tried testing an empty array and if there was only one element in the array. I also tried the tests that 
+were given to me, but I can't think of anything else to test. I did do sequences of testing such as printing out the library
+after a book was removed or added. I guess that would be an example of "cross-checking" methods!
+complete and correct programs:  45/ 50
+
+
+Does your program compile without warnings? Are there any blocks of
+repeated code that can be simplified?
+
+--> My program does compiles without warnings and I tried to separate the purpose of each method as much as I can! I don't think there's a lot of 
+repeated code or anything. 
+
+good programming practices:     25/ 30
+
+Do you have comments for each class both in the header and
+implementation file? Does each variable and function have an
+associated comment? Is your program properly indented? See "Code Style
+Examples - Snippets" under C++ Resources for some common problems. For
+example, all file names have to be in lowercase, all class names are
+capitalized, need to have spaces after comments, stick to maximum 80
+characters per line, space between operators, etc.
+
+--> I added comments for many things such as methods, variables, the array, etc. I also tried to make everything consistent in terms of formatting. I also tried 
+to make messages to terminal very clear. I also tried to make the comments clear, but I had a lot of descriptions! I think I did an ok job!
+
+code that is easy to understand:     18/ 20
