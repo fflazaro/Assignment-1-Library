@@ -12,20 +12,20 @@ using namespace std;
 void Test1()
 {
     Library libs("Franchesca's Library");
-    libs.AddBook("Don Quixote");
-    libs.AddBook("In Search of Lost Time");
-    libs.AddBook("Ulysses");
-    libs.AddBook("The Odyssey");
+    libs.AddBook("The Secret History");
+    libs.AddBook("Basara Volume 1");
+    libs.AddBook("Phantom of the Opera");
+    libs.AddBook("Dante's Inferno");
     libs.ListAllBooks();
-    bool result = libs.IsInLibrary("The Odyssey");
+    bool result = libs.IsInLibrary("Dante's Inferno");
     assert(result);
-    result = libs.AddBook("The Odyssey");
+    result = libs.AddBook("Dante's Inferno");
     assert(!result);
-    result = libs.RemoveBook("The Odyssey");
+    result = libs.RemoveBook("Dante's Inferno");
     assert(result);
-    result = libs.IsInLibrary("The Odyssey");
+    result = libs.IsInLibrary("Dante's Inferno");
     assert(!result);
-    result = libs.RemoveBook("The Odyssey");
+    result = libs.RemoveBook("Dante's Inferno");
     assert(!result);
 }
 
