@@ -1,0 +1,58 @@
+Fri 08 Apr 2022 05:52:34 PM PDT
+Linux csslab6h 4.19.0-20-amd64 #1 SMP Debian 4.19.235-1 (2022-03-17) x86_64 GNU/Linux
+uid=1158218(ffl) gid=2121158218(ffl) groups=2121158218(ffl),605559(lab-access)
+=====================================================
+1. Compiles without warnings with -Wall -Wextra flags
+=====================================================
+=====================================================
+2. Runs and produces correct output
+=====================================================
+MESSAGE: Added The Secret History to your library.
+MESSAGE: Added Basara Volume 1 to your library.
+MESSAGE: Added Phantom of the Opera to your library.
+MESSAGE: Added Dante's Inferno to your library.
+Your library contains: 
+---> The Secret History
+---> Basara Volume 1
+---> Phantom of the Opera
+---> Dante's Inferno
+MESSAGE: Dante's Inferno is already in your library.
+MESSAGE: Dante's Inferno is already in your library.
+MESSAGE: Dante's Inferno was sucessfully removed from your library.
+MESSAGE: Dante's Inferno is not in your library.
+MESSAGE: Removal of Dante's Inferno was unsuccessful.
+Successfully completed all tests.
+=====================================================
+3. clang-tidy warnings are fixed
+=====================================================
+=====================================================
+4. No memory leaks using g++
+=====================================================
+=====================================================
+5. No memory leaks using valgrind, look for "definitely lost" 
+=====================================================
+==16205== Memcheck, a memory error detector
+==16205== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==16205== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==16205== Command: ./a.out
+==16205== Parent PID: 16171
+==16205== 
+==16205== 
+==16205== HEAP SUMMARY:
+==16205==     in use at exit: 0 bytes in 0 blocks
+==16205==   total heap usage: 10 allocs, 10 frees, 76,994 bytes allocated
+==16205== 
+==16205== All heap blocks were freed -- no leaks are possible
+==16205== 
+==16205== For counts of detected and suppressed errors, rerun with: -v
+==16205== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=====================================================
+6. Tests have full code coverage
+=====================================================
+WARNING: check-code-coverage.sh script is missing
+Fri 08 Apr 2022 05:52:45 PM PDT
+=====================================================
+To create an output.txt file with all the output from this script
+Run the below command
+      ./create-output.sh > output.txt 2>&1 
+=====================================================
